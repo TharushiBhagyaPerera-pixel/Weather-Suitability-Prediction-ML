@@ -1,0 +1,57 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python environments
+.python-version
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Model files
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.sav
+
+# TensorFlow checkpoints
+checkpoint/
+*.ckpt
+*.index
+*.data-*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Generated output files
+results/outputs/*.csv
+results/outputs/*.xlsx
+
+# Google Colab
+drive/
